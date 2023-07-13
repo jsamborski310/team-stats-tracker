@@ -210,7 +210,7 @@ export default function Games() {
                   </Typography>
 
                   {/* Add Game Button */}
-                  {Auth.loggedIn() ? (
+                  {/* {Auth.loggedIn() ? (
                     <IconButton
                       onClick={handleOpen}
                       aria-label="Add Game"
@@ -227,7 +227,7 @@ export default function Games() {
                     </IconButton>
                   ) : (
                     <div></div>
-                  )}
+                  )} */}
                 </Grid>
               </Grid>
             </Grid>
