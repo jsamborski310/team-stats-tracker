@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+/* Font for Form Field Inputs */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  margin: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+main {
+  background-color: #ecf6fc;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+input {
+  font-family: PT Sans, Arial, Helvetica, sans-serif !important;
+}
+
+/* DataGrid Styles */
+
+.customDataGrid .MuiDataGrid-main {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px #06274035;
+}
+.MuiDataGrid-row:nth-child(even) {
+  background-color: #ecf6fc;
+}
+
+/* Home Page Stats Box */
+.statsBox {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Table Sort */
+/* .css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root {
+  margin-left: 10px;
+} */
+.css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root:hover {
+  background-color: transparent;
+  color: white;
+}
+.css-lbda50-MuiDataGrid-root
+  .MuiDataGrid-columnHeaderTitleContainerContent:hover {
+  background-color: transparent;
+}
