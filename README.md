@@ -83,7 +83,7 @@ URL for GitHub repo: [https://github.com/thenickedwards/My-Team-Stats-Tracker](h
 
 ## Heroku
 
-URL for live application deployed on Heroku: [https://myteam-stats.herokuapp.com/](https://myteam-stats.herokuapp.com/)
+URL for live application deployed on Heroku: [https://team-stats-tracker-2022-0b3b16647706.herokuapp.com/](https://team-stats-tracker-2022-0b3b16647706.herokuapp.com/)
 
 Thank you for reading the readme! Enjoy an orange slice and Capri-Sun 🍊🧃
 
