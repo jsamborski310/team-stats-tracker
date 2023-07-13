@@ -1,10 +1,12 @@
 const mongoose = require("mongoose");
 
-mongoose
-  .connect(process.env.MONGODB_URI, {
+mongoose.connect(
+  "mongodb+srv://juanita:1KkNaa3Gn5cWFJkp@cluster0.jprrwjf.mongodb.net/teamDB",
+  {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-  })
+  }
+)
   .then(() => {
     console.log("Connected to MongoDB");
   })
